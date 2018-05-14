@@ -3,21 +3,31 @@ def badge_maker(name)
 end  
 
 def batch_badge_creator(array)
-  list = []
+  badge_list = []
   array.each do |el|
-    list << "Hello, my name is #{el}."
+    badge_list << "Hello, my name is #{el}."
   end  
-  list
+  badge_list
 end  
 
 def assign_rooms(array)
-  list = []
+  room_list = []
   array.each_with_index do |el, idx|
-  list << "Hello, #{el}! You'll be assigned to room #{idx + 1}!"
+  room_list << "Hello, #{el}! You'll be assigned to room #{idx + 1}!"
   end
-  list 
+  room_list 
 end  
 
 def printer
+  room_list = assign_rooms(array)
+  badge_list = batch_badge_creator
+  batch_list.each do |badge|
+    puts "#{badge}"
+  end  
+  room_list.each do |room|
+    puts "#{room}"
+  end  
+end  
+    
   
 end  
