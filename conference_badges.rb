@@ -15,7 +15,7 @@ def assign_rooms(array)
   array.each_with_index do |el, idx|
   list << "Hello, #{el}! You'll be assigned to room #{idx}!"
   end
-  list = []
+  list 
 end  
 
 def printer
