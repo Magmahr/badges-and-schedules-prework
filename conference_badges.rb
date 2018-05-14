@@ -28,6 +28,3 @@ def printer
     puts "#{room}"
   end  
 end  
-    
-  
-end  
