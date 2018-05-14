@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(array)
   array.each do el
-    badge_maker(el)
+    "Hello, my name is #{el}."
   end  
 end  
 
